@@ -24,11 +24,11 @@ section{
 
 h1{
     font-size: 50px;
-    line-height: 60PX;
+    line-height: 40PX;
 }
 
 h1 span{
-    color:orange;
+    color:#ff6347;
 }
 .half-width img{
     width: 90%;
@@ -36,7 +36,7 @@ h1 span{
 
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, light salmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -44,13 +44,14 @@ h1 span{
 }
 
 p{
-    color: dimgray;
+    color: dim gray;
 }
 
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 100%;
 }
 
 h2{
@@ -58,18 +59,19 @@ h2{
 }
 
 .experiance-area{
-    background-image: url("images/exp-bg.png");
+    background-image: URL("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    padding-left: 9%;
 }
 
 .experiance-area h3{
-    color: orange;
+    color: #ff6347;
 }
 
 .experiance-area div{
     box-shadow: 5px 7px 40px gray;
-    height: 80%;
+    height: 100%;
 }
 
 #full-stack{
